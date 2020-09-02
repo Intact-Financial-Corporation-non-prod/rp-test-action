@@ -17,8 +17,8 @@ jobs:
     - name: Jira TODO
       uses: atlassian/gajira-todo@master
       with:
-        project: GA
+        project: RTA
         issuetype: Task
-        description: Created automatically via GitHub Actions
+        description: Created automatically via GitHub Actions RP
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
